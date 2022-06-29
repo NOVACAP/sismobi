@@ -204,7 +204,6 @@
     </div>
 </div>
 <!-- Modal -->
-!-- Modal -->
 <div class="modal" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true" wire:ignore.self>
     <div class="modal-dialog" role="document">
