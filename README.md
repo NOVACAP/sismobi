@@ -6,9 +6,9 @@
 DB_CONNECTION=sqlsrv
 DB_HOST=10.233.208.200
 DB_PORT=1433
-DB_DATABASE=GestaoRH2
-DB_USERNAME=usergestaorh
-DB_PASSWORD=biut5ls6
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
 
 - Instale o pacote
 - composer require lucascudo/laravel-pt-br-localization --dev
@@ -56,3 +56,11 @@ DB_PASSWORD=biut5ls6
 
 # criando a model transport
 php artisan make:model Transport
+
+# kit for export to excel laravel-excel
+- https://laravel-excel.com/
+- https://phpspreadsheet.readthedocs.io/en/latest/
+- https://docs.laravel-excel.com/3.1/getting-started/installation.html
+
+# uso do jquery datatables
+# alteração das cores layout adminlte3
