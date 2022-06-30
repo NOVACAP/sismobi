@@ -64,3 +64,17 @@ php artisan make:model Transport
 
 # uso do jquery datatables
 # alteração das cores layout adminlte3
+# uso do fileupload 2 opcoes
+# 1
+- php artisan make:model File -m
+- add fillable model
+- php artisan migrate
+- cria as rotas
+- php artisan make:controller FileUpload
+- criacao view file-upload.blsde.php
+
+# 2
+- php artisan make:controller FileUploadRequestController
+- php artisan make:request FileUploadRequest
+- add roles ao arquivo request
+- cria view fileUpload.blade.php
