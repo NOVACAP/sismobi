@@ -9,7 +9,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Início</a></li>
                     <li class="breadcrumb-item active">Usuários</li>
                 </ol>
             </div><!-- /.col -->
@@ -36,7 +36,7 @@
                 </div>
                 <div class="card">
                     <div class="card-body">
-                        <table class="table table-hover table-bordered table-striped">
+                        <table id="tblusers" class="table table-hover table-bordered table-striped">
                             <thead>
                                 <tr align="center">
                                     <th scope="col">#</th>
