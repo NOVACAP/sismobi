@@ -9,6 +9,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
 use Livewire\Component;
+use Livewire\WithPagination;
 use Maatwebsite\Excel\Facades\Excel;
 
 class ListUsers extends AdminComponent
@@ -128,5 +129,5 @@ class ListUsers extends AdminComponent
         return Excel::download(new UserViewExport, 'usuarios.xlsx');
     }
 
-    
+
 }

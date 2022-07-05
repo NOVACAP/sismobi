@@ -38,8 +38,8 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-money-check"></i>
+            <a href="{{ route('admin.combustivel') }}" class="nav-link {{ request()->is('admin/combustivel') ? 'active' : '' }}">
+              <i class="nav-icon fa fa-thermometer-full"t></i>
               <p>
                 Combustível
               </p>
@@ -47,10 +47,10 @@
           </li>
           <li class="nav-item">
             <a href="{{ route('admin.users')}}" class="nav-link {{ request()->is('admin/users') ? 'active' : '' }}">
-                <i class="nav-icon fas fa-users"></i>
-                <p>
-                    Usuários
-                </p>
+              <i class="nav-icon fas fa-users"></i>
+              <p>
+               Usuários
+              </p>
             </a>
           </li>
           <li class="nav-item">
