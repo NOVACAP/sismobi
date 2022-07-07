@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\DasboardController;
 use App\Http\Controllers\FileUpload;
 use App\Http\Controllers\FileUploadRequestController;
+use App\Http\Livewire\Admin\Transports\CreateTransportForm;
 use App\Http\Livewire\Admin\Transports\ListCombustiveis;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Admin\Transports\ListTransports;
@@ -26,6 +27,7 @@ Route::get('/', function () {
 Route::get('admin/dashboard', DasboardController::class)->name('admin.dashboard');
 Route::get('admin/users', ListUsers::class)->name('admin.users');
 Route::get('admin/transports', ListTransports::class)->name('admin.transports');
+Route::get('admin/transports/create', CreateTransportForm::class)->name('admin.transports.create');
 Route::get('admin/combustivel', ListCombustiveis::class)->name('admin.combustivel');
 
 Route::get('admin/export', [ListUsers::class, 'export'])->name('export.user');

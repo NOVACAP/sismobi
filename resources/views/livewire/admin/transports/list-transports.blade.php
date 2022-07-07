@@ -30,8 +30,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-end mb-2">
-
-                        <button wire:click.prevent="filtrarBuscaVltransporte" class="btn btn-primary"><i
+                        <a href="{{ route('admin.transports.create') }}">
+                            <button class="btn btn-primary"><i
+                                class="fa fa-plus-circle mr-1"></i>Adicionar Pessoa</button>
+                        </a>
+                        <button class="btn btn-primary"><i
                                 class="fa fa-plus-circle mr-1"></i>Exportar XML</button>
                     </div>
                     <div class="card">
